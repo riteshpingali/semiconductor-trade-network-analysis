@@ -11,7 +11,7 @@ Semiconductors sit at the centre of modern geopolitics: a handful of economies d
 ## Data
 
 - **Source:** [UN Comtrade](https://comtradeplus.un.org/) bilateral trade data, HS code 8542 (electronic integrated circuits)
-- **Scale:** 149,000+ rows of bilateral trade flows, 2012–2023
+- **Scale:** 149,000+ rows of bilateral trade flows, 2012-2023
 - **Network:** 12-economy core - China, Hong Kong SAR, Singapore, South Korea, USA, Malaysia, Japan, Germany, Netherlands, France, Ireland, UK
 
 > **Note on data:** raw Comtrade data is not redistributed in this repository, in line with UN Comtrade's terms of use. The notebook documents the extraction parameters (reporter/partner economies, HS code, years) needed to reproduce the dataset via the Comtrade API or web portal.
