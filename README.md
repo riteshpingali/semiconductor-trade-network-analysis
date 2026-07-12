@@ -21,9 +21,9 @@ Semiconductors sit at the centre of modern geopolitics: a handful of economies d
 ## Methods
 
 - Directed, weighted trade networks built in **Python / NetworkX**, one per sub-period
-- Four sub-periods segmenting 2012–2023 around key policy and shock events, including the CHIPS Act
+- Four sub-periods segmenting 2012-2023 around key policy and shock events, including the CHIPS Act
 - **Betweenness centrality** (weighted and unweighted) to measure brokerage power, using an inverse-weight distance convention so that larger trade flows correspond to shorter network distances
-- **Herfindahl–Hirschman Index (HHI)** to measure import concentration
+- **Herfindahl-Hirschman Index (HHI)** to measure import concentration
 - Import share analysis, including a heatmap of China's import shares across partners and periods
 
 ## Key findings
@@ -31,7 +31,7 @@ Semiconductors sit at the centre of modern geopolitics: a handful of economies d
 - **China's brokerage role rose monotonically** across all four sub-periods, in both unweighted (0.218 → 0.451) and weighted (0.57 → 0.71) betweenness, continuing to climb after the CHIPS Act
 - **The US is largely absent as a broker** in the main specification (70th-percentile edge threshold), and in the full-network weighted specification its betweenness roughly halved over the study window (0.19 → 0.09)
 - **Malaysia shows a sharp weighted-betweenness jump in the CHIPS period** (0.00 → 0.19), consistent with "China+1" rerouting of supply chains rather than genuine de-concentration
-- **China's share of partners' semiconductor imports rose across most of the network** (e.g. Hong Kong SAR 29% → 46% over 2012–2023), while the US share sourced from China fell (13% → 5%), suggesting policy has so far **rerouted** dependence more than reduced it
+- **China's share of partners' semiconductor imports rose across most of the network** (e.g. Hong Kong SAR 29% → 46% over 2012-2023), while the US share sourced from China fell (13% → 5%), suggesting policy has so far **rerouted** dependence more than reduced it
 
 <!-- Add 1-2 key figures here once exported, e.g.:
 ![China import share heatmap](figures/china_import_share_heatmap.png)
